@@ -11,7 +11,7 @@ do{
   cout<<matriz1[c];
   c=c+1;
   if(c<10){
-    cout<<"     -       ";
+    cout<<" - ";
   }
 }while(c<10);
   cout<<endl;
@@ -20,7 +20,7 @@ do{
     cout<<matriz[c];
     c=c+1;
     if(c<10){
-      cout<<"       -      ";
+      cout<<" -  ";
     }
   }while(c<10);
   cout<<endl;
@@ -29,6 +29,11 @@ do{
   cout<<"\n";
   cout<<"muestra por pantalla la suma de las matrices "<<endl;
   cout<<"                                             "<<endl;
+  for(int c=0;c<10;c++){
+	       cout<<matriz1[c]+ matriz2[c];
+	       cout<<" - ";
+}
+cout<<endl;
 
 return 0;
 
