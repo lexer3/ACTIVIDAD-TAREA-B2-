@@ -13,6 +13,17 @@ do{
   if(c<10){
     cout<<"     -       ";
   }
+}while(c<10);
+  cout<<endl;
+  c=0;
+  do{
+    cout<<matriz[c];
+    c=c+1;
+    if(c<10){
+      cout<<"       -      ";
+    }
+  }while(c<10);
+  cout<<endl;
   
 
 return 0;
