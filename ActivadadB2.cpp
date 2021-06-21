@@ -25,6 +25,10 @@ do{
   }while(c<10);
   cout<<endl;
   
+  //Lexer Preciado en esta parte mostraremos la suma de las matrices 1 y 2//
+  cout<<"\n";
+  cout<<"muestra por pantalla la suma de las matrices "<<endl;
+
 
 return 0;
 
