@@ -13,7 +13,7 @@ float suma[10],resta[10],producto[10],division[10];
      if(c<10){
        cout<<" - ";
      }
-   }while(c<10);
+   }while(c<10)
     cout<<endl;
     c=0;
     do{
