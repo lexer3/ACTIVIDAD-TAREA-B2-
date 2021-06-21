@@ -28,7 +28,7 @@ do{
   //Lexer Preciado en esta parte mostraremos la suma de las matrices 1 y 2//
   cout<<"\n";
   cout<<"muestra por pantalla la suma de las matrices "<<endl;
-
+  cout<<"                                             "<<endl;
 
 return 0;
 
