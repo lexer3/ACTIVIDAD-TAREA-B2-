@@ -27,10 +27,10 @@ float suma[10],resta[10],producto[10],division[10];
   
 //Parte de Lexer Preciado en esta parte mostraremos la suma de las matrices 1 y 2
 cout<<"\n";
-cout<<"muestra por pantalla la suma de las matrices 1 y 2"<<endl;
-cout<<"                                                  "<<endl;
+cout<<"muestra por pantalla la suma de las matrices "<<endl;
+cout<<"                                             "<<endl;
 for(int c=0;c<10;c++){
-	cout<<matriz1[c]+matriz2[c];
+	cout<<matriz1[c]+ matriz2[c];
 	cout<<" - ";
 }
 cout<<endl;
