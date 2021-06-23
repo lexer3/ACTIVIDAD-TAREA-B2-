@@ -37,11 +37,38 @@ cout<<endl;
 c=0;
 	
 	
+________________________________________________
+//WENDY ROBINZON RODRIGUEZ SUMA DE MATRICES//
+________________________________________________
+cout<<"=======================================:"<<endl;
+cout<<"EL RESULTADO DE LA SUMA DE MATRICES ES:"<<endl;
+do{
+suma[c]=matriz1[c]+matriz2[c];
+cout<<suma[c];
 
+         c=c+1;
+         cout<<" ";
 	
+}while(c<10);
+c=0;
+cout<<endl;
 	
+
+_______________________________________________
+//WENDY ROBINZON RODRIGUEZ RESTA DE MATRICES//
+_______________________________________________
+cout<<"EL RESULTADO DE LA RESTA DE MATRICES ES:"<<endl;
+do{
+resta[c]=matriz1[c]-matriz2[c];
+cout<<resta[c];
+
+         c=c+1;
+         cout<<" ";
 	
-	
+}while(c<10);
+c=0;
+cout<<endl;
+cout<<"=======================================:"endl;
 	
 	
 _____________________________________________________
@@ -52,8 +79,8 @@ do{
 producto[c]=matriz1[c]*matriz2[c];
 cout<<producto[c];
 	
-c=c+1;
-cout<<"   ";
+         c=c+1;
+         cout<<"   ";
 
 }while(c<10);
 c=0;
@@ -67,6 +94,7 @@ cout<<"EL RESULTADO DE LA DIVISIÓN DE MATRICES ES:"<<endl;
 for(c=0; c<10; c++){
 division[c]=matriz1[c]/matriz2[c];
 }
+	
 for(c=0; c<10; c++){
 cout<<division[c]<<"  ";
 cout<<endl;
