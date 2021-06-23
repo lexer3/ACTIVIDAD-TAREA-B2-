@@ -32,6 +32,19 @@ do {
 }while(c<10);
 cout<<endl;
 c=0;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 return 0;
 
