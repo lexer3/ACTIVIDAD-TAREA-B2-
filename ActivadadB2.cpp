@@ -13,7 +13,10 @@ float suma[10],resta[10],producto[10],division[10];
 cout<<"     PROGRAMA DE OPERACIONES MATEMATICAS: "<<endl;
 cout<<"SE MUESTRAN LAS DOS MATRICES: "<<endl;	
 cout<<"========================================================: "<<endl;	
+	
+______________________________________________
 //LEXER PRECIADO TELLO MUESTRA DE MATRICES//
+______________________________________________
   do {
 	cout<<matriz1[c];
 	c=c+1;
@@ -34,17 +37,47 @@ cout<<endl;
 c=0;
 	
 	
+
 	
 	
 	
 	
 	
 	
+_____________________________________________________
+//ALISSON LUCAS ANGULO MULTIPLICACION DE MATRICES//
+_____________________________________________________
+cout<<"EL RESULTADO DE LA MULTIPLICACION DE LAS MATRICES ES:"<<endl;
+do{
+producto[c]=matriz1[c]*matriz2[c];
+cout<<producto[c];
 	
+c=c+1;
+cout<<"   ";
+
+}while(c<10);
+c=0;
+cout<<endl;
+cout<<"======================================:"<<endl;
 	
+________________________________________________
+//ALISSON LUCAS ANGULO DIVISION DE MATRICES//
+________________________________________________
+cout<<"EL RESULTADO DE LA DIVISIÓN DE MATRICES ES:"<<endl;
+for(c=0; c<10; c++){
+division[c]=matriz1[c]/matriz2[c];
+}
+for(c=0; c<10; c++){
+cout<<division[c]<<"  ";
+cout<<endl;
+}
 	
-	
-	
+
+cout<<" "<<endl;
+cout<<"INTEGRANTES"<<endl;
+cout<<"WENDY ROBINZON RODRIGUEZ"<<endl;
+cout<<"ALISSON LUCAS ANGULO"<<endl;
+cout<<"LEXER PRECIADO TELLO"<<endl;
 
 return 0;
 
